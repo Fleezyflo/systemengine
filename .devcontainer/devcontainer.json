@@ -1,0 +1,17 @@
+{
+  "name": "TrendAlchemist Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "npm install && playwright install",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "zsh"
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-docker",
+    "ms-playwright.playwright"
+  ],
+  "forwardPorts": [3000, 5432, 5678],
+  "remoteUser": "node"
+}
