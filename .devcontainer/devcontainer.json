@@ -3,7 +3,7 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
-  "postCreateCommand": "npm install && playwright install",
+  "postCreateCommand": "if [ -f package.json ]; then npm install && playwright install; fi",
   "settings": {
     "terminal.integrated.defaultProfile.linux": "zsh"
   },
