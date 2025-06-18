@@ -18,3 +18,12 @@ terraform.tfstate*
 
 # macOS
 .DS_Store
+# virtual environments
+workers/.venv/
+
+# Terraform artefacts
+**/.terraform/
+terraform.tfstate*
+
+# macOS
+.DS_Store
