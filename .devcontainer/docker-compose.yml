@@ -10,7 +10,7 @@ services:
     depends_on: [db]
 
   n8n:
-    image: n8nio/n8n:1
+    image: n8nio/n8n:latest
     ports: ["5678:5678"]
     environment:
       - DB_TYPE=postgresdb

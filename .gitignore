@@ -1,3 +1,20 @@
 
 # virtual environments
 workers/.venv/
+
+# virtual environments
+workers/.venv/
+
+# local Terraform state (never commit)
+**/.terraform/
+terraform.tfstate*
+
+# virtual environments
+workers/.venv/
+
+# Terraform artefacts
+**/.terraform/
+terraform.tfstate*
+
+# macOS
+.DS_Store
